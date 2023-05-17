@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+
+<html>
+   <head>
+     <title>CHAPITRE 3</title>
+     <style>
+
+          .title2{
+               text-decoration: underline;
+               font-family: 'Source Sans Pro', sans-serif;
+               margin-left:2cm;
+               font-size: 20px;
+               color: brown;
+            }
+            .highlight{
+               background-color: #fccb8f;
+               border-radius: 6px;
+               padding: 3px 6px;
+            }
+            .marge{
+             margin: 0px;
+            }
+            .I{
+               font-family: 'Source Sans Pro', sans-serif;
+               margin-left:0.5cm;
+               font-size: 17px;
+            }
+            .st{
+                font-size: 17px; 
+                font-family: 'Source Sans Pro', sans-serif;
+                margin-left: 1cm;
+                color: brown;
+            }
+            .ch{font-size: 25px;
+                font-family: 'Source Sans Pro', sans-serif;
+                text-decoration: underline;
+                text-align:center;
+                margin-left: 20px;
+                margin-top: 15px;
+                color: brown;
+            }
+     </style>
+  </head>
+ <body>
+    
+      <br>
+     <p><h1 class="ch"> CHAPITRE 03: LE MODELE OSI </h1></p>
+
+      <br>
+
+     <p><h3 class="title2"> 1)- Les composants matériel d'un réseau informatique:</h3></p>
+
+     <p><h5 class="st"> a-les cartes réseau:</h5> 
+       <p class="I"> Sont des composants matériels qui permettent à un ordinateur de se connecter à un réseau, <br>
+        sont installées à l'intérieur de l'ordinateur et sont généralement connectées à une prise Ethernet ou Wi-Fi,<br>
+         les cartes réseau permettent à l'ordinateur de transmettre et de recevoir des données via des protocoles de communication spécifiques. <br></p></p>
+    
+     <p> <h5 class="st"  > b- Switch:</h5>
+     <p class="I">Commutateur réseau est un composant matérièl utilisé pour connecter des appareils sur un réseau local. <br>
+       Le switch utilise une table de correspondance et l'utilise pour envoyer les données uniquement à l'appareil destinataire.<br></p></p>
+    
+     <p><h5 class="st"> c- Hub:</h5>
+       <p class="I">Concentrateur est un composant matérièl utilisé pour connecter plusieurs appareil sur un réseau local, <br>
+        le HUB envoie les paquets au tous les noeuds connectes au HUB. <br></p></p>
+
+     <p> <h3   style="font-size: 20px"; class="title2">2)- Le modèle OSI:</h3></p>
+       <p class="I"> le modèle OSI est utilisé généralement comme références aux différentes couches. <br>
+        Open Systems Interconnection est un modèle de référence pour les communications de réseau qui divise <br>
+        les communications en sept couches sont les suivants: La couche physique, la couche liaison de données,<br>
+        la couche réseau, la couche transport, la couche session, la couche présentation, la couche appliction. <br></p>
+
+     <p><h3 style="font-size: 20px"; class="title2">3)- Le modèle TCP/IP:</h3> </p>
+
+     <p class="I"> Le modèle Transmission Control Protocol/Internet Protocol est un modèle de référence pour <br>
+       les communication de réseau. <br>
+       Le modèle TCP/IP comport quatre couches: <br>
+       -couche application <br>
+       -couche transport (TCP) <br>
+       -couche internet (IP) <br>
+       -couche accès réseau. <br>
+       TCP/IP est le modèle de référence pour les protocoles de communication de réseau utilisés pour la conception <br>
+       et la mise en oeuvre des réseaux d'entreprise, des réseaux Internet et des réseaux sans fil.</p>
+
+     <p> <h3 style="font-size: 20px"; class="title2"> 4) L’adressage :</h3>
+       <p class="I">Les communications dans un réseau obéissent à des règles : <br>
+        • Adressage: qui permet d'identifier de manière unique les deux unités en <br>
+        communication <br>
+        • Architecture: qui définit les rôles endossés par les deux unités <br>
+        • Protocoles: qui assurent l'échange des données <br></p></p>
+
+     <p class="I">  un adressage IP : <br>
+       Une adresse IP (Internet Protocol) est le numéro qui identifie chaque ordinateur dans les réseaux <br>
+       qu’il appartient. Il y’a deux mode d’adressage IPV4 et IPV6 : <br>
+     
+     <br>
+
+      - ADRESSE IPV4: <br>
+       Chaque paquet contient : adresse source sur (32 bits) et une adresse destinataire sur
+       (32bits)
+     <br>
+      - ADRESSE IPV6 : <br>
+       Les adresses sont codées sur 128 bits. La représentation textuelle se fait en
+       découpant le mot de 128 bits de l'adresse en 8 mots de 16 bits séparés par le
+       caractère «:», chacun d'eux est en hexadécimal.</p>
+
+     <p><h3   style="font-size: 20px"; class="title2"> 5) L’adresse IPV4:</h3>
+       <p class="I"> Les 4 octets constituent deux parties, une partie pour Partie réseau et l'autre pour la partie hôte. <br>
+        Le nombre des bits contenus dans la partie hôte détermine le nombre des machines possible sur ce réseau. <br>
+        Les différents types d’adresse IPV4: l’adressage IPV4 s’effectué selon les types suivants : <br>
+        L’adresse réseau : tous les bits de la partie hôtes=0 exemple:( 10.0.0.0) ,c'est-à-dire tous les <br>
+        hôtes(machines) de ce réseau ont la même partie réseau. <br>
+     
+     <br>
+        L’adresse de diffusion :Cette adresse permet à un pc d'envoyer des paquets à l'adresse de diffusion de réseau, <br>
+        et tous les hôtes reçoivent ces données, sans distribuer une paquet pour chaque pc. <br>
+     <br>
+        L’adresse hôtes :On attribue les valeurs situés entre l’adresse réseau et l’adresse de <br>
+        diffusion sur {machines} situé sur cette réseau. <br>
+     <br>
+        Le masque de réseau et de sous réseaux : Tous les bits de la partie réseaux = 1 <br></p></p>
+  </body>
+</html>
